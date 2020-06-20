@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: rgb(236, 235, 235);
+  font-family: "Poppins", sans-serif;
+  font-size: 0.8rem;
+  min-height: 100vh;
+}
+
+#logo {
+  font-family: "Pattaya", sans-serif;
+  font-size: 3rem;
+  font-weight: 400;
+  text-decoration: none;
+  color: black;
+}
+
+#wayback {
+  font-family: "Source Code Pro", monospace;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 3px;
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  min-height: 30vh;
+  justify-content: center;
+  align-items: center;
+}
+header h2 {
+  padding: 2rem;
+}
+
+.search-form {
+  padding: 2rem;
+  display: flex;
+}
+.search-form input {
+  width: 100%;
+  padding: 1rem 2rem;
+  border: 2px solid black;
+  font-family: "Source Code Pro", monospace;
+}
+
+.search-form button {
+  border: none;
+  padding: 0.5rem 1rem;
+  background: black;
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+  letter-spacing: 3px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-style: normal;
+  font-family: "Source Code Pro", monospace;
+}
+
+.gallery-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: gray;
+  padding: 0.5rem 0rem;
+}
+.gallery-info a {
+  color: gray;
+  text-decoration: none;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  padding: 2rem 0rem;
+  width: 80%;
+  margin: auto;
+  row-gap: 5rem;
+  column-gap: 3rem;
+}
+
+.gallery-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.nav-button {
+  min-height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.more {
+  padding: 20px 40px;
+  background: black;
+  color: white;
+  border-color: black;
+  font-size: 15px;
+  letter-spacing: 3px;
+  cursor: pointer;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-style: normal;
+  font-family: "Source Code Pro", monospace;
+}
+
+.more:hover {
+  background: white;
+  color: black;
+}
