@@ -1,0 +1,48 @@
+body {
+  font-family: "Roboto", sans-serif;
+
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 30vh;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: "Pattaya", sans-serif;
+
+  flex: 1 1 10rem;
+  margin-top: 5rem;
+  font-weight: 400;
+}
+
+.uses {
+  flex: 1 1 15rem;
+  font-size: 1rem;
+  font-weight: 400;
+  text-decoration: none;
+  color: black;
+}
+
+h2 {
+  font-size: 1rem;
+  font-weight: 400;
+  text-decoration: none;
+  color: black;
+  font-style: normal;
+}
+
+a {
+  flex: 1 1 10rem;
+  text-decoration: none;
+  color: black;
+  margin: 3rem;
+  cursor: pointer;
+  font-size: 15px;
+  letter-spacing: 3px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-style: normal;
+  font-family: "Source Code Pro", monospace;
+}
