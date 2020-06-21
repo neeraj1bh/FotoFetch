@@ -10,3 +10,5 @@ Hey, these are the clicks of the website if you want to see it in action please 
 Then search any key term as I searched for "Dark Sky".
 
 On clicking more new images are reloaded.
+
+![](https://github.com/neeraj1bh/FotoFetch/blob/master/Wayback/assets/1.png)
