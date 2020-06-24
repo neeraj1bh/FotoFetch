@@ -3,6 +3,7 @@ body {
 
   text-align: center;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   min-height: 30vh;
   justify-content: center;
@@ -11,7 +12,6 @@ body {
 
 h1 {
   font-family: "Pattaya", sans-serif;
-
   flex: 1 1 10rem;
   margin-top: 5rem;
   font-weight: 400;
@@ -21,6 +21,7 @@ h1 {
   flex: 1 1 15rem;
   font-size: 1rem;
   font-weight: 400;
+  text-align: center;
   text-decoration: none;
   color: black;
 }
@@ -28,6 +29,9 @@ h1 {
 h2 {
   font-size: 1rem;
   font-weight: 400;
+  align-items: center;
+  width: 90%;
+  display: inline-block;
   text-decoration: none;
   color: black;
   font-style: normal;
