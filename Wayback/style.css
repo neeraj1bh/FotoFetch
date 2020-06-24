@@ -33,6 +33,11 @@ h2 {
   font-style: normal;
 }
 
+.links {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 a {
   flex: 1 1 10rem;
   text-decoration: none;
